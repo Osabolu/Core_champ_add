@@ -139,6 +139,10 @@
     margin-bottom: 8px;
 }
 
+.form-forms i{
+    overflow: hidden;
+}
+
 .forms label{
     color: rgb(251, 248, 248);
     font-size: 18px;
@@ -285,23 +289,40 @@
 .icons-i{
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   margin-top: 7px;
+   justify-content: space-evenly;
+   margin-top: 10px;
+
+}
+
+.form-log .icons-i{
+    color: aliceblue;
+    font-size: 1.4rem;
+
+}
+
+.form-log .icons i:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.form-log .icons i:hover{
+    transform: scale(1.6);
 }
 
 .fa{
     font-size: 30px;
     color: rgb(18, 67, 199);
+    overflow: hidden;
 }
 
 .fa:hover{
-    transform: scaleY(1.2);
+    transform: scaleY(1.1);
     cursor: pointer; 
 }
 
 .linked{
     font-size: 30px;
     color: rgb(20, 48, 125);
+    overflow: hidden;
 }
 
 .linked:hover{
@@ -312,6 +333,7 @@
 .yahoo{
     font-size: 30px;
     color: rgb(53, 33, 154); 
+    overflow: hidden;
 }
 
 .yahoo:hover{
@@ -322,6 +344,7 @@
 .apple{
     font-size: 30px;
     color: rgb(0, 0, 0);
+    overflow: hidden;
 }
 
 .apple:hover{
