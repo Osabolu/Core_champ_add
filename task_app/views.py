@@ -74,25 +74,6 @@ def dashboard(request):
     })
 
 
-def views_by_task(request):
-    # task = get_object_or_404(Task, id=task_id)
-    # views = Task.objects.filter(status='to_do')
-    # if request.user != task.username:
-    #     messages.error(request, "You do not have permission to view that task, try logging in with different details.")
-    #     return redirect("task_app:home")
-    context = {
-        # "task":task,
-        # 'views': views
-        # "greeting":greeting,
-        # "time_of_day": time_of_day
-    }
-    # return render(request, 'task-app/task-detail.html', context)
-    # return render(request, "task-app/task-view.html", context )
-   
-
-
-
-
 @login_required
 def task_detail(request, task_id):
     task = get_object_or_404(Task, id=task_id)
