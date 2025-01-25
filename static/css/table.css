@@ -135,6 +135,8 @@
 .formcov h1{
     color: rgb(255, 255, 255);
 }
+
+
 .forms {
     margin-bottom: 8px;
 }
@@ -308,8 +310,9 @@
     transform: scale(1.6);
 }
 
+
 .fa{
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(18, 67, 199);
     overflow: hidden;
 }
