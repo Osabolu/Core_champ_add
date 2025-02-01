@@ -10,7 +10,7 @@ from .forms import TaskForm
 from datetime import datetime
 
 
-def home(request):
+def index(request):
     current_hour = datetime.now().hour
     if 6 <= current_hour < 12:
         greeting = "Good Morning!"
